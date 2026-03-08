@@ -1,0 +1,33 @@
+# Entorno virtual
+.venv/
+env/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+
+# PKL — excluir de notebooks
+notebooks/*.pkl
+
+# Data — no subir datos procesados
+data/datos_procesados.csv
+data/datos_entrenamiento.csv
+data/datos_prueba.csv
+data/datos_para_modelado.csv
+
+# Notebooks a omitir
+notebooks/07_sugerencias.ipynb
+
+# VS Code
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
